@@ -5310,6 +5310,31 @@ li.mixitup-control-active {
 }
 
 /** event Section **/
+.ms-news-section .news-carousel .owl-stage {
+  display: flex;
+}
+.ms-news-section .news-carousel .owl-item {
+  display: flex;
+}
+.ms-news-section .news-carousel .ms-item {
+  display: flex;
+  width: 100%;
+}
+.ms-news-section .news-carousel .news-info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.ms-news-section .news-carousel .news-info .news-img {
+  aspect-ratio: 4 / 3;
+}
+.ms-news-section .news-carousel .news-info .news-img img {
+  display: block;
+  object-fit: cover;
+}
+.ms-news-section .news-carousel .news-info .detail {
+  flex: 1;
+}
 .ms-news-section .news-info {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
